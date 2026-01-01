@@ -1,15 +1,4 @@
--- Place this LocalScript in StarterPlayerScripts
--- Changes in this update:
--- - Run Speed default value set to 300
--- - PvP panel: removed 魚人レース button and its info
--- - FlyGuiV3 loader clicking now attempts to fetch & load the script with pcall
--- - プレイヤーチェック button now loads pastebin script via loadstring(game:HttpGet(...))()
--- - hitbox 拡大 initial value set to 10
--- - 張り付き Speed initial value set to 400
--- - Close button now responds: opens confirmation modal; "はい" destroys the GUI
--- - Kept previous UI layout / scrollable panels / spectate + other behaviors
--- - NEW: 左メニューをスクロール対応に
--- - NEW: 「ダンジョン」メニュー追加（既存コード・機能・長さ・説明に一切変更なし）
+
 
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
